@@ -2,9 +2,9 @@
 ini_set('display_errors', E_ALL);
 
 //use Framework;
-require "../BadAutoloader/Autoloader.php";
+require "../vendor/Autoloader.php";
 
-$autoloader = new Autoloader();
-spl_autoload_register([$autoloader, 'load']);
+//$autoloader = new Autoloader();
+//spl_autoload_register([$autoloader, 'load']);
 
-$request = new Framework\Request();
+$request = new Keith\Request();

@@ -1,10 +1,14 @@
 <?php
 ini_set('display_errors', E_ALL);
 
+define('SITE_PATH', realpath(dirname(__FILE__)).'/');
+
 //use Framework;
 require "../vendor/Autoloader.php";
 
-//$autoloader = new Autoloader();
-//spl_autoload_register([$autoloader, 'load']);
-
 $request = new Keith\Request();
+$request->getPathInfo();
+
+$router = new \Keith\Router();
+$router->route($request);
+

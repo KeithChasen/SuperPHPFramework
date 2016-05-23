@@ -3,6 +3,11 @@
   "type": "framework",
   "description": "Small PHP framework",
   "license": "MIT",
+  "authors": [
+    {
+      "name": "Keith Chasen"
+    }
+  ],
   "require": {
     "php": ">=5.4.0"
   },

@@ -1,0 +1,14 @@
+{
+  "name": "keithchasen/superframework",
+  "type": "framework",
+  "description": "Small PHP framework",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Framework": "Framework/"
+    }
+  }
+}

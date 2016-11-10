@@ -5,7 +5,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Keith Chasen"
+      "name": "Keith Chasen",
+      "email": "keithchasen89@gmail.com"
     }
   ],
   "require": {

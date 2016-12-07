@@ -1,8 +1,8 @@
 # SuperPHPFramework
 Small PHP Framework
 
-Installation
-'''bash
+## Installation
+```bash
 $ composer require keithchasen/superframework dev-master
-'''
+```
 
